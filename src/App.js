@@ -7,7 +7,7 @@ class App extends Component {
         super(props);
         this.formattedData = '';
         this.allGames = [];
-        this.scheduleUrl = 'http://statsapi.mlb.com/api/v1/schedule/postseason/series?sportId=1&season=2018&hydrate=team,broadcasts(all),seriesStatus(useOverride=true),decisions,person,probablePitcher,linescore(matchup)';
+        this.scheduleUrl = 'https://statsapi.mlb.com/api/v1/schedule/postseason/series?sportId=1&season=2018&hydrate=team,broadcasts(all),seriesStatus(useOverride=true),decisions,person,probablePitcher,linescore(matchup)';
 
         this.state = {
             isLoaded : false
