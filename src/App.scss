@@ -1,0 +1,175 @@
+@import './fonts.scss';
+@import './icons.scss';
+
+$mlb-blue: #002E6D;
+$mlb-light-blue: #147CD1;
+$mlb-gray: #333333;
+$mlb-light-gray: #666666;
+$border-gray: #ECECEC;
+$white: #FFFFFF;
+$black: #000000;
+
+body {
+	margin: 0;
+	font-family: "mlb-primary";
+}
+
+header {
+	background-color: $mlb-blue;
+	height: 140px;
+	padding: 20px;
+	color: $white;
+	.logo {
+		width: 120px;
+		height: auto;
+	}
+	h2 {
+		font-weight: normal;
+	}
+}
+
+.game {
+	padding: 5px 20px 0;
+
+	&__date {
+		border-bottom: 1px solid $border-gray;
+		padding-bottom: 10px;
+		font-size: 20px;
+		color: #333333;
+		margin: 15px 0 10px;
+		@media screen and (min-width: 768px) {
+			margin: 30px 0 10px;
+			font-size: 25px;
+		}
+	}
+
+	&__details {
+		border-bottom: 1px solid $border-gray;
+		padding: 10px 0;
+		@media screen and (min-width: 768px) {
+			display: flex;
+			justify-content: space-between;
+		}
+
+		> div {
+			display: flex;
+			justify-content: space-between;
+			font-size: 14px;
+
+			@media screen and (min-width: 768px) {
+				padding: 0;
+				font-size: 16px;
+				display: inline-flex;
+				width: 50%;
+			}
+		}
+
+		a {
+			text-decoration: none;
+			color: $black;
+		}
+
+		> a {
+			display: block;
+			span {
+				font-size: 22px;
+				color: $mlb-light-gray;
+				vertical-align: middle;
+			}
+		}
+
+		&-teams {
+			width: 60%;
+			.at-icon {
+				color: $mlb-light-gray;
+				text-size: 12px;
+				padding: 0 5px;
+			}
+
+		}
+
+		&-broadcast {
+			width: 40%;
+			display: flex;
+			justify-content: flex-end;
+
+			@media screen and (min-width: 768px) {
+				justify-content: flex-start;
+
+				span {
+					width: 30%;
+					padding-left: 10px;
+				}
+			}
+
+			img {
+				max-height: 18px;
+				min-height: 16px;
+				max-width: 42px;
+				height: 100%;
+				padding-left: 10px;
+			}
+		}
+
+		&-players {
+			width: 70%;
+
+			span {
+				padding-right: 10px;
+				display: block;
+				@media screen and (min-width: 768px) {
+					display: inline;
+				}
+				a {
+					color: $mlb-light-blue;
+					display: inline;
+				}
+			}
+		}
+
+		&-ctas {
+			width: 30%;
+			display: flex;
+			align-items: center;
+			justify-content: space-around;
+
+			a {
+				color: $mlb-light-gray;
+				padding: 0 15px;
+				@media screen and (min-width: 768px) {
+					font-size: 20px;
+					display: flex;
+					align-items: center;
+				}
+
+			}
+			.copy {
+				display: none;
+				@media screen and (min-width: 768px) {
+					display: block;
+					font-size: 14px;
+					padding-left: 10px;
+				}
+			}
+		}
+	}
+
+	&__summary {
+		font-size: 12px;
+		color: $mlb-light-gray;
+	}
+
+	&__team-logo {
+		display: none;
+		@media screen and (min-width: 768px) {
+			display: inline-block;
+			height: 20px;
+			vertical-align: middle;
+			padding-right: 5px;
+		}
+	}
+
+	&__score {
+		padding-left: 5px;
+	}
+}
