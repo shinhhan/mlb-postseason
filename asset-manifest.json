@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/mlb-postseason/static/css/main.2c55baee.chunk.css",
+    "main.js": "/mlb-postseason/static/js/main.c644cc54.chunk.js",
+    "main.js.map": "/mlb-postseason/static/js/main.c644cc54.chunk.js.map",
+    "runtime~main.js": "/mlb-postseason/static/js/runtime~main.6731d02e.js",
+    "runtime~main.js.map": "/mlb-postseason/static/js/runtime~main.6731d02e.js.map",
+    "static/js/2.6efc73d3.chunk.js": "/mlb-postseason/static/js/2.6efc73d3.chunk.js",
+    "static/js/2.6efc73d3.chunk.js.map": "/mlb-postseason/static/js/2.6efc73d3.chunk.js.map",
+    "index.html": "/mlb-postseason/index.html",
+    "precache-manifest.eb6ece2500d0d946aea6cbeef1971851.js": "/mlb-postseason/precache-manifest.eb6ece2500d0d946aea6cbeef1971851.js",
+    "service-worker.js": "/mlb-postseason/service-worker.js",
+    "static/css/main.2c55baee.chunk.css.map": "/mlb-postseason/static/css/main.2c55baee.chunk.css.map",
+    "static/media/App.scss": "/mlb-postseason/static/media/icomoon.ec443f1b.eot",
+    "static/media/logo.svg": "/mlb-postseason/static/media/logo.636ec413.svg"
+  }
+}
